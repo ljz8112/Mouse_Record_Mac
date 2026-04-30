@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F98E346842154CCDB4463E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6872CAF974A98BC9D36D2 /* AppDelegate.swift */; };
+		3247246487A8446C8EF8BD0A /* MouseRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C862022B9461288BBCB3D /* MouseRecorderApp.swift */; };
+		0ACCD25EE8C44618BEA1D04D /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE311199F54B47E8848107F2 /* MouseButton.swift */; };
+		7EED882B9AB941C7BFD32A26 /* MouseClickEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2C869B3D14463E8F35570F /* MouseClickEvent.swift */; };
+		FCE2EC3362B74211840D3C10 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CCFC2D3C9433B9E8385BD /* EventStore.swift */; };
+		8E034083D2A14C4E984528FE /* RecordingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D0A712414CD09C6A3178 /* RecordingEngine.swift */; };
+		40FAF91E6C8840BC81BD9C7B /* PlaybackEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0564A776CBBF46349018F0F8 /* PlaybackEngine.swift */; };
+		E0575F0EB26E4A139423CA26 /* SchedulerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EFAA401DCC4C4ABE96E3DC /* SchedulerEngine.swift */; };
+		8FD8684419C64372BFE809BF /* AccessibilityPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9A35C6B7F43AC934409D9 /* AccessibilityPermissionService.swift */; };
+		3F3FBABC7AD34FDA99E5FCE6 /* ImportExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7108CDF57747F7907E36A1 /* ImportExportService.swift */; };
+		40337C1C9B9043B7834A1F1B /* MousePositionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64992522A9CF4171ABECD777 /* MousePositionPicker.swift */; };
+		F7AB22DFFB104E78AE9382A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D57791FE8F4EC7A8F24B8D /* ContentView.swift */; };
+		44DE84AAE8CD4E96B659DE3D /* MiniRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A173E1553346EC93E8545B /* MiniRecordingView.swift */; };
+		49F8C46B18E44F7FB764EFF0 /* MiniPlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF845F5B4A48D1A9FA5594 /* MiniPlaybackView.swift */; };
+		8E9932484C734CE6B77208C7 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C581F7FED408A846A3B44 /* EventListView.swift */; };
+		DFA7DEEF06A741E685B214D8 /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958D2CB046DF4D6BA6A196EB /* EventRowView.swift */; };
+		C89798256E4044E09CD2064A /* AddEventSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE793955BB474DBA13C0DE /* AddEventSheet.swift */; };
+		CD27A471D98D412F8768E680 /* SchedulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4A271A847459592F7600C /* SchedulerView.swift */; };
+		8A0BA168C76741F0B0486E06 /* PermissionBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BED754183141C894392D21 /* PermissionBannerView.swift */; };
+		4B2747AF640945818EA3D955 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B5A50A74824D5A805DB037 /* StatusBarView.swift */; };
+		91C0891966674AB3BAFA64A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77839311F2024AE3A89D52B3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7DEB72958EF45669F5950CD /* MouseRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD6872CAF974A98BC9D36D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA5C862022B9461288BBCB3D /* MouseRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseRecorderApp.swift; sourceTree = "<group>"; };
+		CE311199F54B47E8848107F2 /* MouseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseButton.swift; sourceTree = "<group>"; };
+		7D2C869B3D14463E8F35570F /* MouseClickEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseClickEvent.swift; sourceTree = "<group>"; };
+		E58CCFC2D3C9433B9E8385BD /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		A5A2D0A712414CD09C6A3178 /* RecordingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingEngine.swift; sourceTree = "<group>"; };
+		0564A776CBBF46349018F0F8 /* PlaybackEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEngine.swift; sourceTree = "<group>"; };
+		A8EFAA401DCC4C4ABE96E3DC /* SchedulerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerEngine.swift; sourceTree = "<group>"; };
+		7FF9A35C6B7F43AC934409D9 /* AccessibilityPermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPermissionService.swift; sourceTree = "<group>"; };
+		3C7108CDF57747F7907E36A1 /* ImportExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportExportService.swift; sourceTree = "<group>"; };
+		64992522A9CF4171ABECD777 /* MousePositionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MousePositionPicker.swift; sourceTree = "<group>"; };
+		A3D57791FE8F4EC7A8F24B8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9A173E1553346EC93E8545B /* MiniRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniRecordingView.swift; sourceTree = "<group>"; };
+		F6CF845F5B4A48D1A9FA5594 /* MiniPlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlaybackView.swift; sourceTree = "<group>"; };
+		740C581F7FED408A846A3B44 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		958D2CB046DF4D6BA6A196EB /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
+		61EE793955BB474DBA13C0DE /* AddEventSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventSheet.swift; sourceTree = "<group>"; };
+		39C4A271A847459592F7600C /* SchedulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerView.swift; sourceTree = "<group>"; };
+		47BED754183141C894392D21 /* PermissionBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionBannerView.swift; sourceTree = "<group>"; };
+		96B5A50A74824D5A805DB037 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		77839311F2024AE3A89D52B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABFD0C78C0248CA9000F056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75AE069D47E4BF3AC49016E /* MouseRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MouseRecorder.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA80AA02F5794EEF994D8910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFA94C300AA7416DBB96603A /* MouseRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				1488D40CF7EC4F1A87D4FAAA /* App */,
+				13B66FD968A041DBB871431D /* Models */,
+				EBA14D6981724C168A60EC09 /* Services */,
+				5A74D3AE59DD4A75866C377D /* Views */,
+				4D3034238CF14D7984D2E164 /* Resources */,
+				AD3078A28E8C481997381BA2 /* Products */,
+			);
+			path = MouseRecorder;
+			sourceTree = "<group>";
+		};
+		AD3078A28E8C481997381BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DEB72958EF45669F5950CD /* MouseRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1488D40CF7EC4F1A87D4FAAA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C862022B9461288BBCB3D /* MouseRecorderApp.swift */,
+				7BD6872CAF974A98BC9D36D2 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		13B66FD968A041DBB871431D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE311199F54B47E8848107F2 /* MouseButton.swift */,
+				7D2C869B3D14463E8F35570F /* MouseClickEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBA14D6981724C168A60EC09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E58CCFC2D3C9433B9E8385BD /* EventStore.swift */,
+				A5A2D0A712414CD09C6A3178 /* RecordingEngine.swift */,
+				0564A776CBBF46349018F0F8 /* PlaybackEngine.swift */,
+				A8EFAA401DCC4C4ABE96E3DC /* SchedulerEngine.swift */,
+				7FF9A35C6B7F43AC934409D9 /* AccessibilityPermissionService.swift */,
+				3C7108CDF57747F7907E36A1 /* ImportExportService.swift */,
+				64992522A9CF4171ABECD777 /* MousePositionPicker.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5A74D3AE59DD4A75866C377D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3D57791FE8F4EC7A8F24B8D /* ContentView.swift */,
+				C9A173E1553346EC93E8545B /* MiniRecordingView.swift */,
+				F6CF845F5B4A48D1A9FA5594 /* MiniPlaybackView.swift */,
+				05B006B2857C4516A90085D4 /* EventList */,
+				68D9A6AF3F3A433E9989E173 /* Scheduler */,
+				69DCB98FCB4045709EE96032 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05B006B2857C4516A90085D4 /* EventList */ = {
+			isa = PBXGroup;
+			children = (
+				740C581F7FED408A846A3B44 /* EventListView.swift */,
+				958D2CB046DF4D6BA6A196EB /* EventRowView.swift */,
+				61EE793955BB474DBA13C0DE /* AddEventSheet.swift */,
+			);
+			path = EventList;
+			sourceTree = "<group>";
+		};
+		68D9A6AF3F3A433E9989E173 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				39C4A271A847459592F7600C /* SchedulerView.swift */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		69DCB98FCB4045709EE96032 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				47BED754183141C894392D21 /* PermissionBannerView.swift */,
+				96B5A50A74824D5A805DB037 /* StatusBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D3034238CF14D7984D2E164 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77839311F2024AE3A89D52B3 /* Assets.xcassets */,
+				6ABFD0C78C0248CA9000F056 /* Info.plist */,
+				B75AE069D47E4BF3AC49016E /* MouseRecorder.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E14B001809B487C9FE06427 /* MouseRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BF06310C6A4F978860FDDF /* Build configuration list for PBXNativeTarget "MouseRecorder" */;
+			buildPhases = (
+				69846D084866418C9AD852DB /* Sources */,
+				B8CE08C6FD2C40368C4844A0 /* Resources */,
+				FA80AA02F5794EEF994D8910 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseRecorder;
+			productName = MouseRecorder;
+			productReference = A7DEB72958EF45669F5950CD /* MouseRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF6540EB74548A3B1130F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0E14B001809B487C9FE06427 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CECE51BBA609471C8091B8D4 /* Build configuration list for PBXProject "MouseRecorder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFA94C300AA7416DBB96603A /* MouseRecorder */;
+			productRefGroup = AD3078A28E8C481997381BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E14B001809B487C9FE06427 /* MouseRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CE08C6FD2C40368C4844A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C0891966674AB3BAFA64A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69846D084866418C9AD852DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3247246487A8446C8EF8BD0A /* MouseRecorderApp.swift in Sources */,
+				F98E346842154CCDB4463E85 /* AppDelegate.swift in Sources */,
+				0ACCD25EE8C44618BEA1D04D /* MouseButton.swift in Sources */,
+				7EED882B9AB941C7BFD32A26 /* MouseClickEvent.swift in Sources */,
+				FCE2EC3362B74211840D3C10 /* EventStore.swift in Sources */,
+				8E034083D2A14C4E984528FE /* RecordingEngine.swift in Sources */,
+				40FAF91E6C8840BC81BD9C7B /* PlaybackEngine.swift in Sources */,
+				E0575F0EB26E4A139423CA26 /* SchedulerEngine.swift in Sources */,
+				8FD8684419C64372BFE809BF /* AccessibilityPermissionService.swift in Sources */,
+				3F3FBABC7AD34FDA99E5FCE6 /* ImportExportService.swift in Sources */,
+				40337C1C9B9043B7834A1F1B /* MousePositionPicker.swift in Sources */,
+				F7AB22DFFB104E78AE9382A8 /* ContentView.swift in Sources */,
+				44DE84AAE8CD4E96B659DE3D /* MiniRecordingView.swift in Sources */,
+				49F8C46B18E44F7FB764EFF0 /* MiniPlaybackView.swift in Sources */,
+				8E9932484C734CE6B77208C7 /* EventListView.swift in Sources */,
+				DFA7DEEF06A741E685B214D8 /* EventRowView.swift in Sources */,
+				C89798256E4044E09CD2064A /* AddEventSheet.swift in Sources */,
+				CD27A471D98D412F8768E680 /* SchedulerView.swift in Sources */,
+				8A0BA168C76741F0B0486E06 /* PermissionBannerView.swift in Sources */,
+				4B2747AF640945818EA3D955 /* StatusBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B938B8AA6314C5F93014CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MouseRecorder/Resources/MouseRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MouseRecorder/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouserecorder.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				ENABLE_HARDENED_RUNTIME = NO;
+			};
+			name = Debug;
+		};
+		DB39FAE763FE4E2183D50784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MouseRecorder/Resources/MouseRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MouseRecorder/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouserecorder.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				ENABLE_HARDENED_RUNTIME = NO;
+			};
+			name = Release;
+		};
+		4856F9E7CEBB46CBB54E8744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		304EE88FC61D4115A120C899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECE51BBA609471C8091B8D4 /* Build configuration list for PBXProject "MouseRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4856F9E7CEBB46CBB54E8744 /* Debug */,
+				304EE88FC61D4115A120C899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BF06310C6A4F978860FDDF /* Build configuration list for PBXNativeTarget "MouseRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B938B8AA6314C5F93014CA0 /* Debug */,
+				DB39FAE763FE4E2183D50784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 2AF6540EB74548A3B1130F45 /* Project object */;
+}
