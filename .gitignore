@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Xcode
+DerivedData/
+.DerivedData/
+build/
+Build/
+*.xcuserstate
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager / tooling
+.build/
+.swiftpm/
+
+# Archives and debug symbols
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Local editor and assistant state
+.vscode/
+.idea/
+.claude/
+
+# Local recordings exported while testing.
+# Keep reusable examples under Examples/.
+event/

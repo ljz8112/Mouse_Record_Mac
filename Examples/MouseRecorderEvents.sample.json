@@ -1,0 +1,20 @@
+[
+  {
+    "button": "Left",
+    "delayBeforeFire": 0.25,
+    "id": "F4A9C6B1-2A1D-4C3A-9A5F-816C2C2C0C22",
+    "name": "Click first target",
+    "timestamp": "2026-01-01T12:00:00Z",
+    "x": 640,
+    "y": 420
+  },
+  {
+    "button": "Left",
+    "delayBeforeFire": 0.75,
+    "id": "59F624A8-4BC2-4B0B-B273-926643CE10B4",
+    "name": "Click confirm",
+    "timestamp": "2026-01-01T12:00:01Z",
+    "x": 820,
+    "y": 560
+  }
+]
